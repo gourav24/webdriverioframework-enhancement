@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547459149275' stop='1547459358662'>
+    <name>A registered user can Login to In-Gauge app and logout using hook file as pre &amp; post condition for every TCs and perform some basic functionalities</name>
+    <title>A registered user can Login to In-Gauge app and logout using hook file as pre &amp; post condition for every TCs and perform some basic functionalities</title>
+    <test-cases>
+        <test-case start='1547459149287' status='passed' stop='1547459219661'>
+            <name>User can login In-Gauge successfully</name>
+            <title>User can login In-Gauge successfully</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to In-Gauge app and logout using hook file as pre &amp; post condition for every TCs and perform some basic functionalities'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value=''/>
+            </parameters>
+            <steps>
+                <step start='1547459178362' status='passed' stop='1547459205725'>
+                    <name>user scroll down the page</name>
+                    <title>user scroll down the page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='08c6b255-6987-4718-b8e3-11cf019133c8-attachment.png' type='image/png' size='344275'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e4f51611-3693-4d49-b2b2-b33455f59176-attachment.png' type='image/png' size='115470'/>
+                <attachment title='Screenshot' source='b306fbd8-9af5-46e4-9f09-910904b5ecaa-attachment.png' type='image/png' size='181394'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547459219662' status='passed' stop='1547459304883'>
+            <name>User can scroll up the page successfully</name>
+            <title>User can scroll up the page successfully</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to In-Gauge app and logout using hook file as pre &amp; post condition for every TCs and perform some basic functionalities'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value=''/>
+            </parameters>
+            <steps>
+                <step start='1547459245158' status='passed' stop='1547459274042'>
+                    <name>user scroll down the page</name>
+                    <title>user scroll down the page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4364749e-b28e-45fc-8165-e349cc3c7d4f-attachment.png' type='image/png' size='342956'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459274042' status='passed' stop='1547459291828'>
+                    <name>user scroll up the page</name>
+                    <title>user scroll up the page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='de214900-900c-46a3-ab09-2cda9dae9c78-attachment.png' type='image/png' size='283428'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='fb2a583b-34e7-45ea-a97a-dd23f2644ba2-attachment.png' type='image/png' size='116744'/>
+                <attachment title='Screenshot' source='f3238b31-470f-4492-a9e1-560a52e7b758-attachment.png' type='image/png' size='181479'/>
+            </attachments>
+        </test-case>
+        <test-case start='1547459304884' status='passed' stop='1547459358660'>
+            <name>user can right swipe to the application</name>
+            <title>user can right swipe to the application</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to In-Gauge app and logout using hook file as pre &amp; post condition for every TCs and perform some basic functionalities'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value=''/>
+            </parameters>
+            <steps>
+                <step start='1547459329730' status='passed' stop='1547459345554'>
+                    <name>user open the menu and close it using swipe</name>
+                    <title>user open the menu and close it using swipe</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9f497316-1107-4c62-9f01-e2779c0384b5-attachment.png' type='image/png' size='270721'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='27a91449-f5eb-43d3-8ffb-09b2b7742f2c-attachment.png' type='image/png' size='117159'/>
+                <attachment title='Screenshot' source='ebcae182-cee5-4478-9504-75503197b97c-attachment.png' type='image/png' size='181399'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547459370343' stop='1547459428157'>
+    <name>A registered user can Login to In-Gauge app and logout</name>
+    <title>A registered user can Login to In-Gauge app and logout</title>
+    <test-cases>
+        <test-case start='1547459370352' status='passed' stop='1547459428156'>
+            <name>User can rotate the screen</name>
+            <title>User can rotate the screen</title>
+            <labels>
+                <label name='feature' value='A registered user can Login to In-Gauge app and logout'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value=''/>
+            </parameters>
+            <steps>
+                <step start='1547459400260' status='passed' stop='1547459412088'>
+                    <name>user rotate the screen</name>
+                    <title>user rotate the screen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='dff2c8fd-350b-4d01-adaf-167661881ed0-attachment.png' type='image/png' size='100524'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='21c8d609-3614-44c2-9a6b-8455bc5eede2-attachment.png' type='image/png' size='114939'/>
+                <attachment title='Screenshot' source='81e091f8-4dc6-4e0f-9d6d-7f793a74a281-attachment.png' type='image/png' size='182639'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

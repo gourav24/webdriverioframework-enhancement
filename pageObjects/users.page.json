@@ -1,0 +1,21 @@
+{
+    "user": {
+      
+      "selector":{
+
+        "title": "//div[@class='header ant-layout-header']//b[1]",
+        "userTextbox": "//input[@placeholder='input search text']",
+        "searchButton": "//span[@class='ant-input-suffix']//button[@type='button']",
+        "userFound": "//div[@class='ant-col-6 gutter-row']//div//ul//li[1]",
+        "userNotFound":"//p[contains(text(),'No Such User Found')]"
+        
+      },
+      
+      "testData": {
+        
+        "pageTitle": ""
+        
+      }
+      
+    }
+  }

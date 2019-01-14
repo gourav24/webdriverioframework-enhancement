@@ -1,0 +1,14 @@
+<environment>
+   <parameter>
+       <key>Browser(s)</key>
+       <value></value>
+   </parameter>
+   <parameter>
+       <key>Operating System</key>
+       <value>Windows 10</value>
+   </parameter>
+   <parameter>
+       <key>Host</key>
+       <value>ALIPL5010</value>
+   </parameter>
+</environment>

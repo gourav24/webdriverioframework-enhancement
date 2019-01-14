@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547459441320' stop='1547459580265'>
+    <name>A registered user cannot login In-Gauge app</name>
+    <title>A registered user cannot login In-Gauge app</title>
+    <test-cases>
+        <test-case start='1547459441325' status='broken' stop='1547459513071'>
+            <name>User enters incorrect username</name>
+            <title>User enters incorrect username</title>
+            <labels>
+                <label name='feature' value='A registered user cannot login In-Gauge app'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value=''/>
+            </parameters>
+            <steps>
+                <step start='1547459470935' status='broken' stop='1547459486172'>
+                    <name>user enter Username "ashlie.tibbs1"</name>
+                    <title>user enter Username "ashlie.tibbs1"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ac79c54c-a5b7-4476-bed2-c3b94992176b-attachment.png' type='image/png' size='271179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459486173' status='pending' stop='1547459489690'>
+                    <name>user enter Password "Abcd@12345"</name>
+                    <title>user enter Password "Abcd@12345"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='585518c2-24c2-4ce8-b840-faeac4b77fb8-attachment.png' type='image/png' size='271179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459489690' status='pending' stop='1547459493125'>
+                    <name>user clicks on Login button</name>
+                    <title>user clicks on Login button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='42dd0908-69c9-4f74-979b-850ed4e16cf6-attachment.png' type='image/png' size='271179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459493125' status='pending' stop='1547459496345'>
+                    <name>user gets message "User has no account"</name>
+                    <title>user gets message "User has no account"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='53cb7e17-850a-47cf-83d0-cec45e658b65-attachment.png' type='image/png' size='271179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459496345' status='pending' stop='1547459499766'>
+                    <name>user clicks OK button on alert</name>
+                    <title>user clicks OK button on alert</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='32fa4c0e-450a-4fda-bff5-2e0a189c9d8c-attachment.png' type='image/png' size='271179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7fd84926-9199-4da8-ad4e-1670d25ab581-attachment.png' type='image/png' size='115160'/>
+                <attachment title='Screenshot' source='e4f71f40-8983-4c84-83f2-24ed33fda9de-attachment.png' type='image/png' size='181871'/>
+            </attachments>
+            <failure>
+                <message>element ("//android.widget.EditText[@instance='0']") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("//android.widget.EditText[@instance='0']") still not existing after 10000ms
+                    at elements("//android.widget.EditText[@instance='0']") - D:\cp-dashboard-qa\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting("//android.widget.EditText[@instance='0']") - D:\cp-dashboard-qa\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1547459513072' status='broken' stop='1547459580265'>
+            <name>User enters incorrect password</name>
+            <title>User enters incorrect password</title>
+            <labels>
+                <label name='feature' value='A registered user cannot login In-Gauge app'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value=''/>
+            </parameters>
+            <steps>
+                <step start='1547459539247' status='broken' stop='1547459553673'>
+                    <name>user enter Username "ashlie.tibbs1@hilton.com"</name>
+                    <title>user enter Username "ashlie.tibbs1@hilton.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7f701406-3abc-4602-8d9d-fe84e20d4335-attachment.png' type='image/png' size='271709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459553673' status='pending' stop='1547459557082'>
+                    <name>user enter Password "Abc"</name>
+                    <title>user enter Password "Abc"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='33c3bdf5-17c0-449e-a2e5-c420c4415935-attachment.png' type='image/png' size='271709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459557083' status='pending' stop='1547459560419'>
+                    <name>user clicks on Login button</name>
+                    <title>user clicks on Login button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cedc4bd3-6097-4129-9d7a-05b1265ea19c-attachment.png' type='image/png' size='271709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459560419' status='pending' stop='1547459563693'>
+                    <name>user gets message "Invalid Password"</name>
+                    <title>user gets message "Invalid Password"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='46a84a0c-48a8-4e91-89a8-45a2e2e2af9e-attachment.png' type='image/png' size='271709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1547459563693' status='pending' stop='1547459567096'>
+                    <name>user clicks OK button on alert</name>
+                    <title>user clicks OK button on alert</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f6d57be6-6bf1-4f4a-a01d-95a84d8f3fb2-attachment.png' type='image/png' size='271709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='8e7f2948-fd8b-4a25-8f06-94c0104f3057-attachment.png' type='image/png' size='117874'/>
+                <attachment title='Screenshot' source='7fd4a4f6-4cd3-407d-bbb1-38647f23c3c7-attachment.png' type='image/png' size='182393'/>
+            </attachments>
+            <failure>
+                <message>element ("//android.widget.EditText[@instance='0']") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("//android.widget.EditText[@instance='0']") still not existing after 10000ms
+                    at elements("//android.widget.EditText[@instance='0']") - D:\cp-dashboard-qa\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\isExisting.js:46:17
+                    at isExisting("//android.widget.EditText[@instance='0']") - D:\cp-dashboard-qa\cp-dashboard-qa\node_modules\webdriverio\build\lib\commands\waitForExist.js:67:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

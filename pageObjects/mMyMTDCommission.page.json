@@ -1,0 +1,30 @@
+{
+    "mMyMTDCommission": {
+      
+      "selector":{
+        
+        "myMTDCommissionCardTitle" : "//android.widget.TextView[@text='My MTD Commission']",
+        "gaugemeter": "//android.view.ViewGroup[@instance='36']",
+        "incSalesMonthDec": "//android.widget.TextView[@instance='5']",
+        "addMissingSalesTitle" : "//android.widget.TextView[@instance='0']",
+        "addButton" : "//android.widget.ImageView[@instance='8']",
+        "productSoldTextbox" : "//android.widget.EditText[@instance='0']",
+        "selectDateTextbox" : "//android.widget.TextView[@instance='3']",
+        "selectDateValue" : "//android.view.View[@instance='12']",
+        "okButton" : "//android.widget.Button[@instance='1']",
+        "quantityDropdown" : "//android.widget.Spinner[@instance='0']",
+        "quantityValue" : "//android.widget.CheckedTextView[@instance='1']",
+        "priceTextbox" : "//android.widget.EditText[@instance='1']",
+        "confNoTextbox" : "//android.widget.EditText[@instance='2']",
+        "savenewButton" : "//android.widget.TextView[@instance='8']",
+        "recordAddedMessage" : "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView"
+      },
+
+      "testData": {
+        
+        "pageTitle": ""
+        
+      }
+      
+    }
+  }

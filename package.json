@@ -1,0 +1,61 @@
+{
+  "name": "webdriverio-course-content",
+  "version": "1.0.0",
+  "description": "WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.mobile.js",
+    "stop": "appium-controller --stop -h '127.0.0.1' -p 4723",
+    "start": "appium-controller --start -h '127.0.0.1' -p 4723",
+    "generate": "allure generate reports/functional/testAutomation_Batch_Report/allure-raw-report --clean",
+    "open-report": "allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/American-Water/cp-dashboard-qa/"
+  },
+  "keywords": [
+    "webdriverio",
+    "appium",
+    "wdio"
+  ],
+  "author": "Rajesh NM",
+  "license": "lic",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "appium": "^1.10.0",
+    "http-server": "^0.11.1",
+    "request": "^2.88.0",
+    "sync-request": "^6.0.0",
+    "wdio-appium-service": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/webdriverio": "^4.10.3",
+    "allure-commandline": "^2.5.0",
+    "chai": "^4.1.2",
+    "datejs": "^1.0.0-rc3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.1",
+    "glob": "^7.1.2",
+    "json-file": "^0.1.0",
+    "jsonpath": "^1.0.0",
+    "node-notifier": "^5.2.1",
+    "os": "^0.1.1",
+    "os-name": "^2.0.1",
+    "path": "^0.12.7",
+    "selenium-standalone": "^6.15.0",
+    "wdio-allure-reporter": "^0.6.2",
+    "wdio-cucumber-framework": "^1.1.1",
+    "wdio-firefox-profile-service": "^0.1.2",
+    "wdio-iedriver-service": "^0.1.0",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-visual-regression-service": "^0.7.0",
+    "webdriverio": "^4.13.1",
+    "appium-controller": "^1.1.6",
+    "http-server": "^0.11.1"
+  }
+}

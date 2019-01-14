@@ -1,0 +1,41 @@
+{
+    "mLeaderboard": {
+      
+      "selector":{
+
+        "shareSymbol": "//android.widget.ImageView[@instance='4']",
+
+        "shareLeaderboardTitle": "//android.widget.TextView[@instance='0']",
+
+        "shareReportTextbox": "//android.widget.EditText[@instance='0']",
+
+        "shareWithTenantOption": "//android.widget.TextView[@instance='4']",
+        "shareWithTenantNote" : "//hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.TextView[3]",
+        
+        "shareWithLocationsOption": "//android.widget.TextView[@instance='6']",
+        "shareWithLocationsNote" : "//android.widget.TextView[@instance='10']",
+
+        "selectLocationDropdown" : "//android.widget.Spinner[@instance='0']",
+        "selectLocationValue" : "//android.widget.CheckedTextView[@instance='1']",
+        
+        "shareWithLocationGroupOption": "//android.widget.TextView[@instance='8']",
+        "shareWithLocationGroupNote" : "//android.widget.TextView[@instance='14']",
+       
+        "SWLGselectGroupDropdown" : "//android.widget.Spinner[@instance='1']",
+        "SWLGselectGroupValue" : "//android.widget.CheckedTextView[@instance='2']",
+        
+        "shareWithColleagueOption": "//android.widget.TextView[@instance='10']",
+        "shareWithColleagueNote" : "//android.widget.TextView[@instance='13']",
+        "colleagueUsername" : "//android.widget.EditText[@instance='1']",
+
+        "shareButton": "//android.widget.TextView[@instance='14']"
+      },
+
+      "testData": {
+        
+        "pageTitle": ""
+        
+      }
+      
+    }
+  }
